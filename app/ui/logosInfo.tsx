@@ -27,6 +27,7 @@ export default function LogosInfo(){
         <>
             {logos.map((logo, index)=>(
                 <Image
+                    key={index}
                     src={logo}
                     width={60}
                     height={60}

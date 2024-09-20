@@ -1,13 +1,7 @@
 import { twMerge } from 'tailwind-merge';
+import { CardInterface } from '../lib/Interface';
 
-interface sideCardProps{
-    title: string;
-    subTitle:string;
-    description: string;
-    barColors: string;
-}
-
-export default function SideCard({title, description, subTitle, barColors}:sideCardProps){
+export default function SideCard({title, description, subTitle, barColors}:CardInterface){
     return(
         <div className="group flex flex-1 transition duration-500 hover:scale-110 max-w-screen-sm">
             <div className={twMerge(`w-1 h-14 mr-2 transition-colors`, barColors)}></div>

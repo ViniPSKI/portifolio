@@ -66,6 +66,7 @@ export default function About(){
                     <h1 className="text-xl font-semibold mb-2 mt-10">Experiência Profissional</h1>
                     {experiencia.map((xp, index)=>(
                         <SideCard 
+                            key={index}
                             title={xp.title} 
                             subTitle={xp.subTitle}
                             description={xp.description}

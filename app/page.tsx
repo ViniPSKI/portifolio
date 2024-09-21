@@ -6,6 +6,7 @@ import Nav from "./ui/nav";
 import Home from "./ui/home";
 import About from "./ui/about";
 import Projects from "./ui/projects";
+import Contact from "./ui/contact";
 
 export default function Sidebar() {
   const { theme, setTheme } = useTheme();
@@ -38,9 +39,7 @@ export default function Sidebar() {
       <Home />
       <About />
       <Projects />
-      <div id="contacts" className="w-screen h-screen bg-slate-100 dark:bg-zinc-900">
-        Entre em contato
-      </div>
+      <Contact />
     </div>
   );
 }

@@ -12,7 +12,7 @@ export default function About(){
     const experiencia: CardInterface[] = experienciaData;
 
     return(
-    <div id="about" className="w-screen h-screen bg-slate-100 dark:bg-zinc-900 grid content-center">
+    <div id="about" className="w-screen h-screen bg-slate-50 dark:bg-zinc-950 grid content-center">
         <div className="grid grid-cols-7 p-2 ml-10">
             <div className="col-span-4">
                 <div className="grid grid-cols-4">

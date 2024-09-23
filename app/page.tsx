@@ -34,12 +34,14 @@ export default function Sidebar() {
   }, []);
 
   return (
-    <div className="justify-center overflow-auto transition-all">
+    <div className="justify-center overflow-auto transition-all antialiased">
       <Nav activeSection={activeSection} />
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
+      <div className="snap-y snap-mandatory">
+        <Home />
+        <About />
+        <Projects />
+        <Contact />
+      </div>
     </div>
   );
 }

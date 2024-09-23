@@ -13,7 +13,7 @@ export default function NavItem({icon:Icon, activeSection:ActiveSection, section
             <Icon className={ActiveSection === Section ? "w-9 h-9 hover:w-10 hover:h-10 text-blue-500" : "w-9 h-9 hover:w-10 hover:h-10"} />
           </a>
           <div
-            className={`w-1 h-14 mr-2 transition-colors ${
+            className={`hidden lg:block w-1 h-14 mr-2 transition-colors ${
               ActiveSection === Section ? "bg-blue-500" : "bg-zinc-300 dark:bg-zinc-300/30"
             }`}
           ></div>

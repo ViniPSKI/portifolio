@@ -14,14 +14,14 @@ export default function Nav({ activeSection }: { activeSection: string }) {
   if (!mounted) return null;
 
   return (
-    <div className="fixed top-1/2 right-4 transform -translate-y-1/2">
-      <div className="p-2 flex flex-col gap-4 items-center w-14 rounded-xl">
-        <div className="relative flex flex-col items-center">
+    <div className="fixed bottom-0 p-2 lg:bottom-auto lg:top-1/2 lg:right-4 w-full lg:w-auto transform lg:-translate-y-1/2">
+      <div className="p-2 flex flex-row lg:flex-col gap-4 items-center justify-center w-full rounded lg:w-14 dark:lg:bg-transparent lg:bg-transparent bg-slate-200 dark:bg-zinc-800 lg:rounded-xl">
+        <div className="relative flex flex-row lg:flex-col justify-evenly lg:justify-center items-center w-full lg:w-auto">
           <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
             {theme === "dark" ? (
-              <Sun className="w-8 h-8 gap-2 mr-5 mb-8" />
+              <Sun className="w-8 h-8 mb-0 lg:mb-8 mr-5" />
             ) : (
-              <Moon className="w-8 h-8 gap-2 mr-5 mb-8" />
+              <Moon className="w-8 h-8 mb-0 lg:mb-8 mr-5" />
             )}
           </button>
 

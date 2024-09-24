@@ -20,7 +20,7 @@ export default function Contact(){
       };
 
     return(
-        <div id="contacts" className="mx-auto px-8 sm:px-20 w-screen h-screen bg-slate-50 dark:bg-zinc-950 grid content-center">
+        <div id="contacts" className="mx-auto px-8 sm:px-20 w-screen min-h-screen bg-slate-50 dark:bg-zinc-950 grid content-center">
                 <div className="flex justify-center">
                     <div className="flex flex-col gap-1 justify-center">
                         <h1 className="text-2xl font-semibold">Entre em contato</h1>

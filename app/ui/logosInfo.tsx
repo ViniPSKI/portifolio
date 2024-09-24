@@ -34,7 +34,7 @@ export default function LogosInfo(){
                     width={60}
                     height={50}
                     alt=""
-                    className='dark:bg-zinc-700/75 rounded-md p-1'
+                    className='dark:bg-zinc-700/75 rounded-md p-1 lg:w-16 w-11'
                 />
             ))}
         </>

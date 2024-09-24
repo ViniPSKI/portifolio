@@ -12,21 +12,21 @@ export default function About() {
     return (
       <div
         id="about"
-        className="w-screen min-h-screen flex items-center justify-center bg-slate-50 dark:bg-zinc-950"
+        className="mx-auto px-8 sm:px-20 w-screen min-h-screen flex items-center justify-center bg-slate-50 dark:bg-zinc-950 overflow-auto"
       >
-        <div className="grid grid-cols-7 p-2 ml-10 w-full">
+        <div className="grid lg:grid-cols-7 p-2 gap-2 w-full">
           <div className="col-span-4">
             <div className="grid grid-cols-4">
-              <div className="col-span-1">
+              <div className="lg:col-span-1">
                 <Image
                   src="/foto-perfil.jpeg"
                   width={250}
                   height={250}
                   alt="Foto de perfil para utilizar no avatar"
-                  className="rounded-full"
+                  className="rounded-full hidden lg:block"
                 />
               </div>
-              <div className="col-span-2 ml-10 md:col-span-3">
+              <div className="lg:col-span-2 lg:ml-10 col-span-4">
                 <p className="text-lg">
                   Comecei a entrar no mundo da tecnologia com 15 anos, aprendendo
                   desde a lógica até a programação em si. Tendo como linguagem
@@ -82,7 +82,7 @@ export default function About() {
             </div>
             <div className="mt-4">
               <h1 className="text-xl font-semibold mb-4">Tecnologias que tenho conhecimento</h1>
-              <div className="flex flex-wrap gap-3 max-w-[60%]">
+              <div className="flex flex-wrap gap-1 lg:max-w-[60%] max-w-full">
                 <LogosInfo />
               </div>
             </div>

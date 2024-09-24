@@ -67,7 +67,7 @@ export const experienciaData: CardInterface[] = [
     },
     {
         title:"Visual Software",
-        subTitle:"Desenvolvedor Desktop 2024 - Atua", 
+        subTitle:"Desenvolvedor Desktop 2024 - Atualmente", 
         description:"Desenvolvedor desktop, utilizando voltadas ao ambiente microsoft, como .Net, C# e principalmente VB6. No mesmo período atuando também como importador de base de dados, mantendo e criando novos importadores para diversos os mais diversos tipos de SGBDS (Firebird, Postgres, SqlServer, MariaDB, Oracle).", 
         barColors:""
     }
